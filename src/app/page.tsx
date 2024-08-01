@@ -36,8 +36,8 @@ export default async function Home() {
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
               src="/assets/profile.jpg"
-              width={280}
-              height={280}
+              width={380}
+              height={380}
               alt="Developer"
               className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full border"
             />
@@ -118,6 +118,16 @@ export default async function Home() {
                 {exp.startDate} - {exp.endDate}
               </div>
               <div className="mt-2">
+                <div className="flex flex-wrap gap-2">
+                <h6 className="font-medium">Technologies:</h6>
+                      { exp.technologies.map((tech) => (
+                        <Badge key={tech} variant="secondary">
+                          {tech}
+                        </Badge>
+                      ))}
+                </div>
+              </div>
+              <div className="mt-2">
                 <h6 className="font-medium">Key Responsibilities:</h6>
                 <ul className="text-gray-500 text-sm list-disc pl-4">
                   {exp.keyResponsibilities.map((resp) => (
@@ -125,6 +135,7 @@ export default async function Home() {
                   ))}
                 </ul>
               </div>
+             
             </div>
           ))}
         </div>
@@ -216,7 +227,7 @@ export default async function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section
+      {/* <section
         id="testimonials"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
@@ -247,10 +258,10 @@ export default async function Home() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Blogs Section */}
-      <section
+      {/* <section
         id="blogs"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
@@ -269,7 +280,7 @@ export default async function Home() {
             </Link>
           ))}
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

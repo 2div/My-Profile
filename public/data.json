@@ -35,104 +35,102 @@
     }
   },
   "personalInfo": {
-    "name": "Arif Hossain",
+    "name": "Mohamed Abudullah",
     "title": "Full Stack Developer",
-    "location": "Dhaka, Bangladesh",
-    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+    "location": "Kuwait",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
-    "email": "devarifhossain@gmail.com",
-    "phone": "123-456-7890",
-    "linkedin": "https://www.linkedin.com/in/ariflogs/",
-    "github": "https://github.com/ariflogs",
-    "twitter": "https://twitter.com/ariflogs",
-    "website": "https://johndoe.dev"
+    "email": "mhersi819@gmail.com",
+    "phone": "0096550302735",
+    "linkedin": "https://www.linkedin.com/in/mohamed-h-865375300/",
+    "github": "https://github.com/2div",
+    "twitter": "https://twitter.com/",
+    "website": "https://mdiv.io"
   },
   "skills": {
-    "languages": ["JavaScript", "Python", "Java", "C++"],
-    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
+    "languages": ["JavaScript", "Python", "C#", "HTML","CSS","TailwindCSS"],
+    "frameworks": ["React", "Node.js", "Express", "Nextjs", "Spring Boot",".Net Razor"],
     "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+    "tools": ["Git", "Docker","AWS", "GCP"]
   },
   "projects": [
     {
       "id": "1",
-      "title": "Makers Tracker",
-      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "MySQL"],
+      "title": "Expense Tracker",
+      "description": "An app to track income & expenses.Uses Neon database with Prisma and",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Prisma", "Neon Database"],
       "live_url": "https://makerstracker.com",
-      "code_repo_url": "https://makerstracker.com",
-      "cover": "/assets/project_1.jpeg"
+      "code_repo_url": "https://github.com/2div/expense-tracker-nextjs",
+      "cover": "/assets/expensetracker.jpg"
     },
     {
       "id": "2",
-      "title": "Pricing Bees",
-      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
-      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
-      "live_url": "https://pricingbees.com",
-      "code_repo_url": "https://pricingbees.com",
-      "cover": "/assets/project_2.jpeg"
+      "title": "Online Menu Restaurant ",
+      "description": "Online Menu Restaurant used to let client order by ipad when they are dining in",
+      "technologies": ["Javascript", "HTML", "CSS" ],
+      "live_url": "https://www.pinkuwait.com/dinein/index.html",
+      "code_repo_url": "Private Repo",
+      "cover": "/assets/menulist.jpg"
     },
     {
       "id": "3",
-      "title": "Indie Hustles",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
-      "cover": "/assets/project_3.jpeg"
+      "title": "Real state web app",
+      "description": "A Real estate platform powered by the MERN stack, providing efficient tools for property listings, management. I was a part of the Forntend team",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable", "MongoDB","React", "Node.js", "Express"],
+      "live_url": "https://mubaaderealtor.com",
+      "code_repo_url": "Private Repo",
+      "cover": "/assets/mubaaderealtor.jpg"
     }
   ],
   "workExperience": [
     {
       "id": "1",
-      "company": "Tech Corp",
-      "companyWebsite": "https://example.com",
-      "role": "Senior Full Stack Developer",
-      "startDate": "Jan 2020",
+      "company": "Mubaader Services Company",
+      "companyWebsite": "https://mubaaderservices.com",
+      "role": "Joiner Full Stack Developer",
+      "startDate": "April 2023",
       "endDate": "Present",
-      "technologies": ["Socket.io", "Node.js", "Express", "React"],
+      "technologies": ["Shopify", "Node.js", "Linex", "React", "Next.js", "MySql", "Cpanel"],
       "keyResponsibilities": [
-        "Led a team of developers to create scalable web applications.",
-        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
+        "Build Shopify Stores  with Liquid and HTML",
+        "Manage clients servers in cpanel",
         "Developed front-end applications using React and Next.js.",
-        "Integrated third-party services and APIs to enhance application functionality.",
-        "Mentored junior developers and conducted code reviews."
+        "Integrated third-party services and APIs to enhance application functionality."
       ]
     },
     {
       "id": "2",
-      "company": "Web Solutions",
-      "companyWebsite": "https://example.com",
-      "role": "Full Stack Developer",
-      "startDate": "Jun 2017",
-      "endDate": "Dec 2019",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "company": "Diyar United Company",
+      "companyWebsite": "https://diyarme.com",
+      "role": "Support Engineer",
+      "startDate": "Dec 2022",
+      "endDate": "Feb 2023",
+      "technologies": ["Ticketing systems", "Ventoy", "Windows", "Microsoft 365 "],
       "keyResponsibilities": [
-        "Designed and developed web applications using JavaScript and React.",
-        "Built and maintained server-side APIs with Node.js and Express.",
-        "Collaborated with cross-functional teams to deliver high-quality products.",
-        "Ensured applications are responsive and performant.",
-        "Participated in Agile ceremonies and contributed to project planning."
+        "Adding new user computer to company domain.",
+        "Setting up static IP addresses manually for new priters in the company network.",
+        "Gathering and analyzing data to diagnose problems with computer systems.",
+        "Resolving IT support requests from employees."
       ]
     }
   ],
   "education": [
     {
       "id": "1",
-      "institution": "Coursera",
-      "degree": "Full Stack Web Development with React",
-      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "Microsoft",
+      "degree": "Foundational C# with Microsoft",
+      "description": "Completed a comprehensive introduction to C# programming, covering its core concepts, syntax, object-oriented programming principles and practical application in software development.",
+      "startDate": "Compeleted on March 2024",
+      "endDate": ""
     },
     {
       "id": "2",
-      "institution": "University of California, Berkeley",
+      "institution": "Sudan University, Khartoum",
       "degree": "Bachelor of Science in Computer Science",
-      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering.",
+      "startDate": "Sep 2001",
+      "endDate": "May 2005"
     }
   ],
   "testimonials": [
