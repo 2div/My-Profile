@@ -48,6 +48,7 @@ export default async function Home() {
                 Hey 👋, I&apos;m {data.personalInfo.name}
               </h1>
             </div>
+            <h5 className="text-md font-medium">{data.personalInfo.title}</h5>
             <p className="max-w-[600px] lg:text-lg text-gray-500 dark:text-gray-400">
               {data.personalInfo.bio}
             </p>
