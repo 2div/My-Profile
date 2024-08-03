@@ -60,7 +60,7 @@
       "title": "Expense Tracker",
       "description": "An app to track income & expenses.Uses Neon database with Prisma and",
       "technologies": ["Typescript", "Next.js", "TailwindCSS", "Prisma", "Neon Database"],
-      "live_url": "https://makerstracker.com",
+      "live_url": "https://expense-tracker-nextjs-peach.vercel.app/",
       "code_repo_url": "https://github.com/2div/expense-tracker-nextjs",
       "cover": "/assets/expensetracker.jpg"
     },
