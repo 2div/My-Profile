@@ -44,7 +44,7 @@ export default async function Home() {
           </div>
           <div className="w-full lg:w-2/3 space-y-4">
             <div className="space-y-2">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tighter ">
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tighter ">
                 Hey 👋, I&apos;m {data.personalInfo.name}
               </h1>
             </div>
