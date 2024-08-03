@@ -2,7 +2,7 @@ import withMDX from '@next/mdx'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
+    output: 'export',
     images: {
         unoptimized: true,
       },
