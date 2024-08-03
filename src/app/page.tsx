@@ -218,7 +218,7 @@ export default async function Home() {
               <h4 className="text-xl font-medium">{ed.degree}</h4>
               <h5 className="font-medium">{ed.institution}</h5>
               <div className="text-gray-500 dark:text-gray-400">
-                {ed.startDate} - {ed.endDate}
+                {ed.startDate}  {ed.endDate}
               </div>
               <p className="mt-2 text-sm text-gray-500">{ed.description}</p>
             </div>
