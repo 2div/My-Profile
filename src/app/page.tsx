@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import MyCal from "@/components/MyCal";
 import {
   Card,
   CardContent,
@@ -23,7 +25,7 @@ import Image from "next/image";
 
 export default async function Home() {
   const data = await getJSONData();
-  const posts = await getBlogPosts();
+  //const posts = await getBlogPosts();
 
   return (
     <main>
@@ -87,6 +89,8 @@ export default async function Home() {
                   <EnvelopeClosedIcon className="h-4 w-4" />
                 </Button>
               </Link>
+             
+            <MyCal />
             </div>
           </div>
         </div>
