@@ -13,15 +13,8 @@
         {
           "label": "Education",
           "path": "#education"
-        },
-        {
-          "label": "Testimonials",
-          "path": "#testimonials"
-        },
-        {
-          "label": "Blogs",
-          "path": "#blogs"
         }
+       
       ]
     },
     "home": {
