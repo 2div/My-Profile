@@ -18,5 +18,8 @@
 		cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
 	  })();
 	}, [])
+
+  return null
+
   };
   
