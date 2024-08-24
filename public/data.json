@@ -63,7 +63,7 @@
       "description": "Online Menu Restaurant used to let client order by ipad when they are dining in",
       "technologies": ["Javascript", "HTML", "CSS" ],
       "live_url": "https://www.pinkuwait.com/dinein/index.html",
-      "code_repo_url": "Private Repo",
+      "code_repo_url": "",
       "cover": "/assets/menulist.jpg"
     },
     {
@@ -72,7 +72,7 @@
       "description": "A Real estate platform powered by the MERN stack, providing efficient tools for property listings, management. I was a part of the Forntend team",
       "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable", "MongoDB","React", "Node.js", "Express"],
       "live_url": "https://mubaaderealtor.com",
-      "code_repo_url": "Private Repo",
+      "code_repo_url": "",
       "cover": "/assets/mubaaderealtor.jpg"
     }
   ],

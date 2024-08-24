@@ -3,6 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import MyCal from "@/components/MyCal";
+import PrivateRepo from "@/app/PrivateRepo/PagePrivate";
 import {
   Card,
   CardContent,
@@ -47,7 +48,7 @@ export default async function Home() {
           <div className="w-full lg:w-2/3 space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl md:text-5xl font-bold tracking-tighter ">
-                Hey 👋, I&apos;m {data.personalInfo.name}
+                Hello 👋, I&apos;m {data.personalInfo.name}
               </h1>
             </div>
             <h5 className="text-md font-medium">{data.personalInfo.title}</h5>
