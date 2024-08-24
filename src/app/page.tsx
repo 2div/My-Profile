@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import MyCal from "@/components/MyCal";
-import PrivateRepo from "@/app/PrivateRepo/PagePrivate";
+
 import {
   Card,
   CardContent,
