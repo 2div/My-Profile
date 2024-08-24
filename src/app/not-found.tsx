@@ -22,7 +22,7 @@ return (
                         This repo is Private.
                     </p>          
                     <p className=" text-xl font-bold break all">
-                       You will be redirect to Home in <span className="text-red-600">{secondsRemaining}</span> seconds
+                       You will be redirect <p>to Home in <span className="text-red-600">{secondsRemaining}</span> seconds</p>
                     </p>          
                     <Link href={"/"}>
                     <button className="px-4 py-2 flex bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-full pointer-cursor">
