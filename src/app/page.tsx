@@ -26,6 +26,7 @@ import Image from "next/image";
 
 export default async function Home() {
   const data = await getJSONData();
+  
   //const posts = await getBlogPosts();
 
   return (
