@@ -26,7 +26,7 @@ import Image from "next/image";
 
 export default async function Home() {
   const data = await getJSONData();
-  
+
   //const posts = await getBlogPosts();
 
   return (
@@ -66,7 +66,7 @@ export default async function Home() {
                   <GitHubLogoIcon className="h-4 w-4" />
                 </Button>
               </Link>
-              <Link
+              {/* <Link
                 target="_blank"
                 href={data.contactInfo.twitter}
                 prefetch={false}
@@ -74,7 +74,7 @@ export default async function Home() {
                 <Button variant="secondary" size="icon">
                   <TwitterLogoIcon className="h-4 w-4" />
                 </Button>
-              </Link>
+              </Link> */}
 
               <Link
                 target="_blank"
@@ -98,6 +98,79 @@ export default async function Home() {
         </div>
       </section>
 
+    
+       
+ {/* Skills Section */}
+ <section
+        id="experience"
+        className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+      >
+        <h2 className="font-bold text-3xl md:text-5xl mb-12">
+          My Skills
+        </h2>
+        <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-5 mt-[1rem]">
+            <div  className="grid gap-1 relative">
+              <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50" />          
+                <div className="mt-2">
+                  <div className="flex flex-wrap gap-2">
+                    <h6 className="font-medium">Languages:</h6>
+                          { data.skills.languages.map((tech) => (
+                            <Badge key={tech} variant="secondary">
+                              {tech}
+                            </Badge>
+                          ))}
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-5 mt-[1rem]">
+            <div  className="grid gap-1 relative">
+              <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50" />          
+                <div className="mt-2">
+                  <div className="flex flex-wrap gap-2">
+                    <h6 className="font-medium">Frameworks:</h6>
+                          { data.skills.frameworks.map((tech) => (
+                            <Badge key={tech} variant="secondary">
+                              {tech}
+                            </Badge>
+                          ))}
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-5 mt-[1rem]">
+            <div  className="grid gap-1 relative">
+              <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50" />          
+                <div className="mt-2">
+                  <div className="flex flex-wrap gap-2">
+                    <h6 className="font-medium">Databases:</h6>
+                          { data.skills.databases.map((tech) => (
+                            <Badge key={tech} variant="secondary">
+                              {tech}
+                            </Badge>
+                          ))}
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div className="relative pl-6 after:absolute after:inset-y-0 after:left-0 after:w-px after:bg-gray-500/20 dark:after:bg-gray-400/20 grid gap-5 mt-[1rem]">
+            <div  className="grid gap-1 relative">
+              <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50" />          
+                <div className="mt-2">
+                  <div className="flex flex-wrap gap-2">
+                    <h6 className="font-medium">Tools:</h6>
+                          { data.skills.tools.map((tech) => (
+                            <Badge key={tech} variant="secondary">
+                              {tech}
+                            </Badge>
+                          ))}
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+     
       {/* Experience Section */}
       <section
         id="experience"
@@ -148,6 +221,7 @@ export default async function Home() {
         </div>
       </section>
 
+      
       {/* Projects Section */}
       <section
         id="projects"
@@ -223,7 +297,7 @@ export default async function Home() {
               <div className="aspect-square w-3 bg-gray-900 rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-2 dark:bg-gray-50" />
 
               <h4 className="text-xl font-medium">{ed.degree}</h4>
-              <h5 className="font-medium">{ed.institution}</h5>
+              {/* <h5 className="font-medium">{ed.institution}</h5> */}
               <div className="text-gray-500 dark:text-gray-400">
                 {ed.startDate}  {ed.endDate}
               </div>

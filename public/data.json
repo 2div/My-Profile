@@ -29,24 +29,26 @@
   },
   "personalInfo": {
     "name": "Mohamed",
-    "title": "Frontend Developer with Backend knowledge",
+    "title": "Frontend Developer",
     "location": "Kuwait",
-    "bio": "I am a passionate Frontend Developer with a strong background in building modern, scalable web applications. Lets collaborate and bring your ideas to life."
+    "bio": "I am a passionate Frontend Developer building modern, scalable web applications. Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
     "email": "mhersi819@gmail.com",
-    "phone": "0096550302735",
+    "phone": "+96550302735",
     "linkedin": "https://www.linkedin.com/in/mohamed-h-865375300/",
     "github": "https://github.com/2div",
     "twitter": "https://twitter.com/",
     "website": "https://mdiv.io"
   },
-  "skills": {
-    "languages": ["JavaScript", "Python", "C#", "HTML","CSS","TailwindCSS"],
-    "frameworks": ["React", "Node.js", "Express", "Nextjs", "Spring Boot",".Net Razor"],
+ 
+"skills": {
+    "languages": ["JavaScript", "Python", "C#"],
+    "frameworks": ["React","NextJS", "Node.js", "Express"],
     "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker","AWS", "GCP"]
+    "tools": ["Git", "Docker","Cpanel", "Linex Command", "AWS"]
   },
+
   "projects": [
     {
       "id": "1",
@@ -81,7 +83,7 @@
       "id": "1",
       "company": "Mubaader Services Company",
       "companyWebsite": "https://mubaaderservices.com",
-      "role": "Joiner Full Stack Developer",
+      "role": "Junior Full Stack Developer",
       "startDate": "April 2023",
       "endDate": "Present",
       "technologies": ["Shopify", "Node.js", "Linex", "React", "Next.js", "MySql", "Cpanel"],

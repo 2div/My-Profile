@@ -21,7 +21,7 @@ export default async function Navbar() {
             alt={"devfolio logo"}
           /> */}
         </Link>
-        <nav className="hidden space-x-4 lg:flex">
+        <nav className="hidden space-x-4 lg:flex mr-[14rem]">
           {data.visual.navbar.links.map((item) => (
             <Link
               href={item.path}
